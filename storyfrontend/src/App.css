@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.story-div {
+  cursor: pointer;
+
+  transition: transform 0.3s;
+}
+
+.story-div:hover {
+  transform: scale(1.03);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+html body {
+  background-color: #efefef;
+}

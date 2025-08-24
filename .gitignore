@@ -1,0 +1,49 @@
+# Root virtual environment
+/venv/
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.DS_Store
+*.coverage
+*.env
+.env
+*.egg-info/
+*.egg
+*.mo
+
+# Django specific
+/media/
+staticfiles/
+storyBackend/staticfiles/
+storyBackend/media/
+
+# Vite + React
+node_modules/
+dist/
+.storybook/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# React build outputs
+storyfrontend/dist/
+storyfrontend/node_modules/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# OS generated
+Thumbs.db
+.DS_Store
