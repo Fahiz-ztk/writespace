@@ -21,7 +21,7 @@ function Editor() {
       .then((res) => {
         setFormData(res.data);
       });
-  }, [formData]);
+  }, []);
 
 
 
